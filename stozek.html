@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stożek</title>
+</head>
+<body>
+    <div class="sidebar"><h2>Wybierz figurę:</h2>
+        <ul>
+            <li><a href="walec.html">Walec</a></li>
+            <li><a href="stozek.html">Stożek</a></li>
+            <li><a href="prostopadloscian.html">Prostopadłościan</a></li>
+            <li><a href="kula.html">Kula</a></li>
+            <li><a href="ostroslup.html">Ostrosłup</a></li>
+        </ul>
+    </div>
+    <div class="h1">
+        <h1>Obliczanie objętości i pola <br> powierzchni całkowitej stożka(bryły)</h1>
+       
+        <div class="toggle"></div>
+    </div>
+    <div class="container">
+
+        <div class="img"><img src="img/stozek.png" alt=""></div>
+        <div class="oblicz">
+            <p class="alert"></p>
+            <input type="number" name="" id="promien" placeholder="podaj promień r">
+            <input type="number" name="" id="wysokosc" placeholder="podaj wysokośc h">
+            <input type="number" name="" id="tworzaca" placeholder="podaj tworzącą l">
+            <input type="submit" value="Oblicz" id="submit"> 
+            <div class="objetosc"></div>
+            <div class="pole"></div>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/stozek.js"></script>
+</body>
+</html>
