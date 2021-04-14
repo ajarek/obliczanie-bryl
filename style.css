@@ -74,6 +74,7 @@ input[type=submit] {
     background: #F9A825;
     transition: 1s;
     z-index: 2;
+    overflow: hidden;
 }
 
 .sidebar h2 {
